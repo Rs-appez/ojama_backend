@@ -1,0 +1,1 @@
+gunicorn --bind :8000 --workers 2 ojama_backend.wsgi
