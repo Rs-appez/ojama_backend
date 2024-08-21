@@ -9,3 +9,10 @@ class DecklistUrl(models.Model):
 
     def __str__(self):
         return f"{self.name}"
+    
+
+class LastBanlist(models.Model):
+    banlist_date = models.CharField(max_length=200)
+
+    def __str__(self):
+        return f"{self.banlist_date}"
